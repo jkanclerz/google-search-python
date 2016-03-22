@@ -82,6 +82,7 @@ class GoogleCustomSearch(object):
             ('gss', '.com'),
             ('q', keyword),
             ('oq', keyword),
+            ('searchType', 'image'),
             ('filter', '0'),  # duplicate content filter, 1 | 0
             ('safe', 'off'),  # strict | moderate | off
         ])
